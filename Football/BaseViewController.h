@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
-@interface BaseViewController : UIViewController<AFConnectionDelegate> {
+@interface BaseViewController : UIViewController<AFConnectionDelegate, UITableViewDelegate, UITableViewDataSource> {
     AppDelegate *_appDelegate;
     AFConnectionManager *_requestManager;
 }

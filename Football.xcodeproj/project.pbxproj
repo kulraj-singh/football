@@ -12,6 +12,23 @@
 		E3897CD91CF5704400949AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3897CD81CF5704400949AF8 /* Assets.xcassets */; };
 		E3897CDC1CF5704400949AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3897CDA1CF5704400949AF8 /* LaunchScreen.storyboard */; };
 		E3EB14011CF6E809006E5A5A /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14001CF6E809006E5A5A /* PersonModel.m */; };
+		E3EB14051CF6EB67006E5A5A /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14031CF6EB67006E5A5A /* GamesViewController.m */; };
+		E3EB14061CF6EB67006E5A5A /* GamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EB14041CF6EB67006E5A5A /* GamesViewController.xib */; };
+		E3EB140A1CF6EB7C006E5A5A /* GoalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14081CF6EB7C006E5A5A /* GoalsViewController.m */; };
+		E3EB140B1CF6EB7C006E5A5A /* GoalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EB14091CF6EB7C006E5A5A /* GoalsViewController.xib */; };
+		E3EB140F1CF6EBA0006E5A5A /* PersonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB140D1CF6EBA0006E5A5A /* PersonsViewController.m */; };
+		E3EB14101CF6EBA0006E5A5A /* PersonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EB140E1CF6EBA0006E5A5A /* PersonsViewController.xib */; };
+		E3EB14141CF6EBB0006E5A5A /* RoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14121CF6EBB0006E5A5A /* RoundsViewController.m */; };
+		E3EB14151CF6EBB0006E5A5A /* RoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EB14131CF6EBB0006E5A5A /* RoundsViewController.xib */; };
+		E3EB14191CF6EBBE006E5A5A /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14171CF6EBBE006E5A5A /* TeamsViewController.m */; };
+		E3EB141A1CF6EBBE006E5A5A /* TeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EB14181CF6EBBE006E5A5A /* TeamsViewController.xib */; };
+		E3EB141F1CF7025B006E5A5A /* GameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB141D1CF7025B006E5A5A /* GameCell.m */; };
+		E3EB14201CF7025B006E5A5A /* GameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EB141E1CF7025B006E5A5A /* GameCell.xib */; };
+		E3EB14231CF70DE1006E5A5A /* RoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14221CF70DE1006E5A5A /* RoundModel.m */; };
+		E3EB14261CF70EDC006E5A5A /* NSString+Cleaning.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14251CF70EDC006E5A5A /* NSString+Cleaning.m */; };
+		E3EB142A1CF711BF006E5A5A /* RoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB14281CF711BF006E5A5A /* RoundCell.m */; };
+		E3EB142B1CF711BF006E5A5A /* RoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EB14291CF711BF006E5A5A /* RoundCell.xib */; };
+		E3EB142E1CF71541006E5A5A /* TeamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB142D1CF71541006E5A5A /* TeamModel.m */; };
 		E3EEEFD61CF580BE00A67972 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EEEFD51CF580BE00A67972 /* BaseViewController.m */; };
 		E3EEEFDA1CF580CF00A67972 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EEEFD81CF580CF00A67972 /* HomeViewController.m */; };
 		E3EEEFDB1CF580CF00A67972 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EEEFD91CF580CF00A67972 /* HomeViewController.xib */; };
@@ -66,6 +83,33 @@
 		E3897CDD1CF5704400949AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3EB13FF1CF6E809006E5A5A /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
 		E3EB14001CF6E809006E5A5A /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		E3EB14021CF6EB67006E5A5A /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
+		E3EB14031CF6EB67006E5A5A /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		E3EB14041CF6EB67006E5A5A /* GamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamesViewController.xib; sourceTree = "<group>"; };
+		E3EB14071CF6EB7C006E5A5A /* GoalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalsViewController.h; sourceTree = "<group>"; };
+		E3EB14081CF6EB7C006E5A5A /* GoalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalsViewController.m; sourceTree = "<group>"; };
+		E3EB14091CF6EB7C006E5A5A /* GoalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoalsViewController.xib; sourceTree = "<group>"; };
+		E3EB140C1CF6EBA0006E5A5A /* PersonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonsViewController.h; sourceTree = "<group>"; };
+		E3EB140D1CF6EBA0006E5A5A /* PersonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonsViewController.m; sourceTree = "<group>"; };
+		E3EB140E1CF6EBA0006E5A5A /* PersonsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonsViewController.xib; sourceTree = "<group>"; };
+		E3EB14111CF6EBB0006E5A5A /* RoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsViewController.h; sourceTree = "<group>"; };
+		E3EB14121CF6EBB0006E5A5A /* RoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsViewController.m; sourceTree = "<group>"; };
+		E3EB14131CF6EBB0006E5A5A /* RoundsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundsViewController.xib; sourceTree = "<group>"; };
+		E3EB14161CF6EBBE006E5A5A /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
+		E3EB14171CF6EBBE006E5A5A /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
+		E3EB14181CF6EBBE006E5A5A /* TeamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsViewController.xib; sourceTree = "<group>"; };
+		E3EB141C1CF7025B006E5A5A /* GameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCell.h; sourceTree = "<group>"; };
+		E3EB141D1CF7025B006E5A5A /* GameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCell.m; sourceTree = "<group>"; };
+		E3EB141E1CF7025B006E5A5A /* GameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameCell.xib; sourceTree = "<group>"; };
+		E3EB14211CF70DE1006E5A5A /* RoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundModel.h; sourceTree = "<group>"; };
+		E3EB14221CF70DE1006E5A5A /* RoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundModel.m; sourceTree = "<group>"; };
+		E3EB14241CF70EDC006E5A5A /* NSString+Cleaning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Cleaning.h"; sourceTree = "<group>"; };
+		E3EB14251CF70EDC006E5A5A /* NSString+Cleaning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cleaning.m"; sourceTree = "<group>"; };
+		E3EB14271CF711BF006E5A5A /* RoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundCell.h; sourceTree = "<group>"; };
+		E3EB14281CF711BF006E5A5A /* RoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundCell.m; sourceTree = "<group>"; };
+		E3EB14291CF711BF006E5A5A /* RoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundCell.xib; sourceTree = "<group>"; };
+		E3EB142C1CF71541006E5A5A /* TeamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamModel.h; sourceTree = "<group>"; };
+		E3EB142D1CF71541006E5A5A /* TeamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamModel.m; sourceTree = "<group>"; };
 		E3EEEFD41CF580BE00A67972 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		E3EEEFD51CF580BE00A67972 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		E3EEEFD71CF580CF00A67972 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -205,6 +249,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E3EB141B1CF7023D006E5A5A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				E3EB141C1CF7025B006E5A5A /* GameCell.h */,
+				E3EB141D1CF7025B006E5A5A /* GameCell.m */,
+				E3EB141E1CF7025B006E5A5A /* GameCell.xib */,
+				E3EB14271CF711BF006E5A5A /* RoundCell.h */,
+				E3EB14281CF711BF006E5A5A /* RoundCell.m */,
+				E3EB14291CF711BF006E5A5A /* RoundCell.xib */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
 		E3EEEFD31CF580A800A67972 /* view controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +270,22 @@
 				E3EEEFD71CF580CF00A67972 /* HomeViewController.h */,
 				E3EEEFD81CF580CF00A67972 /* HomeViewController.m */,
 				E3EEEFD91CF580CF00A67972 /* HomeViewController.xib */,
+				E3EB14021CF6EB67006E5A5A /* GamesViewController.h */,
+				E3EB14031CF6EB67006E5A5A /* GamesViewController.m */,
+				E3EB14041CF6EB67006E5A5A /* GamesViewController.xib */,
+				E3EB14071CF6EB7C006E5A5A /* GoalsViewController.h */,
+				E3EB14081CF6EB7C006E5A5A /* GoalsViewController.m */,
+				E3EB14091CF6EB7C006E5A5A /* GoalsViewController.xib */,
+				E3EB140C1CF6EBA0006E5A5A /* PersonsViewController.h */,
+				E3EB140D1CF6EBA0006E5A5A /* PersonsViewController.m */,
+				E3EB140E1CF6EBA0006E5A5A /* PersonsViewController.xib */,
+				E3EB14111CF6EBB0006E5A5A /* RoundsViewController.h */,
+				E3EB14121CF6EBB0006E5A5A /* RoundsViewController.m */,
+				E3EB14131CF6EBB0006E5A5A /* RoundsViewController.xib */,
+				E3EB14161CF6EBBE006E5A5A /* TeamsViewController.h */,
+				E3EB14171CF6EBBE006E5A5A /* TeamsViewController.m */,
+				E3EB14181CF6EBBE006E5A5A /* TeamsViewController.xib */,
+				E3EB141B1CF7023D006E5A5A /* cells */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -301,6 +374,8 @@
 				E3FEFC4D1CF58AD600D606FC /* NSDictionary+JSON.m */,
 				E3FEFC4E1CF58AD600D606FC /* UITextView+Utility.h */,
 				E3FEFC4F1CF58AD600D606FC /* UITextView+Utility.m */,
+				E3EB14241CF70EDC006E5A5A /* NSString+Cleaning.h */,
+				E3EB14251CF70EDC006E5A5A /* NSString+Cleaning.m */,
 			);
 			name = categories;
 			sourceTree = "<group>";
@@ -314,6 +389,10 @@
 				E3FEFC671CF5919900D606FC /* GameModel.m */,
 				E3EB13FF1CF6E809006E5A5A /* PersonModel.h */,
 				E3EB14001CF6E809006E5A5A /* PersonModel.m */,
+				E3EB14211CF70DE1006E5A5A /* RoundModel.h */,
+				E3EB14221CF70DE1006E5A5A /* RoundModel.m */,
+				E3EB142C1CF71541006E5A5A /* TeamModel.h */,
+				E3EB142D1CF71541006E5A5A /* TeamModel.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -427,9 +506,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EB14151CF6EBB0006E5A5A /* RoundsViewController.xib in Resources */,
+				E3EB141A1CF6EBBE006E5A5A /* TeamsViewController.xib in Resources */,
+				E3EB14061CF6EB67006E5A5A /* GamesViewController.xib in Resources */,
+				E3EB14101CF6EBA0006E5A5A /* PersonsViewController.xib in Resources */,
 				E3897CDC1CF5704400949AF8 /* LaunchScreen.storyboard in Resources */,
+				E3EB14201CF7025B006E5A5A /* GameCell.xib in Resources */,
 				E3897CD91CF5704400949AF8 /* Assets.xcassets in Resources */,
 				E3EEEFDB1CF580CF00A67972 /* HomeViewController.xib in Resources */,
+				E3EB142B1CF711BF006E5A5A /* RoundCell.xib in Resources */,
+				E3EB140B1CF6EB7C006E5A5A /* GoalsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EB140F1CF6EBA0006E5A5A /* PersonsViewController.m in Sources */,
 				E3FEFC541CF58AD600D606FC /* NSString+Validations.m in Sources */,
 				E3FEFC351CF58A7700D606FC /* AFURLConnectionOperation.m in Sources */,
 				E3FEFC591CF58AD600D606FC /* NSDictionary+JSON.m in Sources */,
@@ -449,12 +536,15 @@
 				E3FEFC301CF58A7700D606FC /* AFHTTPRequestOperation.m in Sources */,
 				E3FEFC8D1CF5B44B00D606FC /* UNIHTTPBinaryResponse.m in Sources */,
 				E3FEFC931CF5B44B00D606FC /* UNIHTTPRequest.m in Sources */,
+				E3EB140A1CF6EB7C006E5A5A /* GoalsViewController.m in Sources */,
 				E3FEFC5A1CF58AD600D606FC /* UITextView+Utility.m in Sources */,
 				E3FEFC5D1CF58BBC00D606FC /* AlertController.m in Sources */,
 				E3FEFC331CF58A7700D606FC /* AFNetworkReachabilityManager.m in Sources */,
 				E3FEFC381CF58A7700D606FC /* AFURLSessionManager.m in Sources */,
 				E3FEFC911CF5B44B00D606FC /* UNIJsonNode.m in Sources */,
+				E3EB142E1CF71541006E5A5A /* TeamModel.m in Sources */,
 				E3FEFC8F1CF5B44B00D606FC /* UNIHTTPResponse.m in Sources */,
+				E3EB14191CF6EBBE006E5A5A /* TeamsViewController.m in Sources */,
 				E3FEFC361CF58A7700D606FC /* AFURLRequestSerialization.m in Sources */,
 				E3FEFC651CF5917F00D606FC /* BaseModel.m in Sources */,
 				E3FEFC1C1CF5884500D606FC /* AFConnectionManager.m in Sources */,
@@ -465,11 +555,14 @@
 				E3FEFC8B1CF5B44B00D606FC /* UNIBodyRequest.m in Sources */,
 				E3FEFC601CF58F2100D606FC /* MBProgressHUD.m in Sources */,
 				E3EB14011CF6E809006E5A5A /* PersonModel.m in Sources */,
+				E3EB14141CF6EBB0006E5A5A /* RoundsViewController.m in Sources */,
 				E3FEFC501CF58AD600D606FC /* UIButton+BackgroundColor.m in Sources */,
+				E3EB14261CF70EDC006E5A5A /* NSString+Cleaning.m in Sources */,
 				E3FEFC891CF5B44B00D606FC /* Base64.m in Sources */,
 				E3897CD11CF5704400949AF8 /* AppDelegate.m in Sources */,
 				E3EEEFD61CF580BE00A67972 /* BaseViewController.m in Sources */,
 				E3FEFC681CF5919900D606FC /* GameModel.m in Sources */,
+				E3EB14231CF70DE1006E5A5A /* RoundModel.m in Sources */,
 				E3FEFC511CF58AD600D606FC /* UIImage+ImageManipulations.m in Sources */,
 				E3FEFC561CF58AD600D606FC /* UITextField+Utility.m in Sources */,
 				E3FEFC961CF5B44B00D606FC /* UNIUrlConnection.m in Sources */,
@@ -477,12 +570,15 @@
 				E3FEFC311CF58A7700D606FC /* AFHTTPRequestOperationManager.m in Sources */,
 				E3FEFC341CF58A7700D606FC /* AFSecurityPolicy.m in Sources */,
 				E3FEFC8A1CF5B44B00D606FC /* UNIBaseRequest.m in Sources */,
+				E3EB142A1CF711BF006E5A5A /* RoundCell.m in Sources */,
+				E3EB141F1CF7025B006E5A5A /* GameCell.m in Sources */,
 				E3FEFC941CF5B44B00D606FC /* UNIHTTPRequestWithBody.m in Sources */,
 				E3FEFC8E1CF5B44B00D606FC /* UNIHTTPJsonResponse.m in Sources */,
 				E3897CCE1CF5704400949AF8 /* main.m in Sources */,
 				E3FEFC571CF58AD600D606FC /* UIView+ViewManipulations.m in Sources */,
 				E3FEFC521CF58AD600D606FC /* UINavigationController+Utility.m in Sources */,
 				E3EEEFDA1CF580CF00A67972 /* HomeViewController.m in Sources */,
+				E3EB14051CF6EB67006E5A5A /* GamesViewController.m in Sources */,
 				E3FEFC321CF58A7700D606FC /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

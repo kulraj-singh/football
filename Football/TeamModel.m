@@ -1,21 +1,21 @@
 //
-//  PersonModel.m
+//  TeamModel.m
 //  Football
 //
 //  Created by iOS Developer on 26/05/16.
 //  Copyright © 2016 kulraj. All rights reserved.
 //
 
-#import "PersonModel.h"
+#import "TeamModel.h"
 
-@implementation PersonModel
+@implementation TeamModel
 
 - (id)init
 {
     self = [super init];
     if (self) {
-        self.key = @"";
-        self.name = @"";
+        self.code = @"";
+        self.title = @"";
     }
     return self;
 }
@@ -24,8 +24,8 @@
 {
     self = [super initWithResponse:response];
     if (self && [response isKindOfClass:[NSMutableDictionary class]]) {
-        self.key = [self checkNil:[response objectForKey:kKey]];
-        self.name = [self checkNil:[response objectForKey:kName]];
+        self.code = [self checkNil:[response objectForKey:kCode]];
+        self.title = [self checkNil:[response objectForKey:kTitle]];
     }
     return self;
 }

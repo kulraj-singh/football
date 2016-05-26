@@ -20,7 +20,6 @@
     // Override point for customization after application launch.
     HomeViewController *homeVc = [[HomeViewController alloc]initWithNibName:@"HomeViewController" bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:homeVc];
-    nav.navigationBarHidden = YES;
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

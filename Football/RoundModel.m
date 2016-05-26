@@ -1,21 +1,21 @@
 //
-//  PersonModel.m
+//  RoundModel.m
 //  Football
 //
 //  Created by iOS Developer on 26/05/16.
 //  Copyright © 2016 kulraj. All rights reserved.
 //
 
-#import "PersonModel.h"
+#import "RoundModel.h"
 
-@implementation PersonModel
+@implementation RoundModel
 
 - (id)init
 {
     self = [super init];
     if (self) {
-        self.key = @"";
-        self.name = @"";
+        self.title = @"";
+        self.knockout = @"";
     }
     return self;
 }
@@ -24,8 +24,8 @@
 {
     self = [super initWithResponse:response];
     if (self && [response isKindOfClass:[NSMutableDictionary class]]) {
-        self.key = [self checkNil:[response objectForKey:kKey]];
-        self.name = [self checkNil:[response objectForKey:kName]];
+        self.title = [self checkNil:[response objectForKey:kTitle]];
+        self.knockout = [self checkNil:[response objectForKey:kKnockout]];
     }
     return self;
 }

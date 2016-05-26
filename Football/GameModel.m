@@ -51,7 +51,7 @@
 - (id)initWithResponse:(NSDictionary *)response
 {
     self = [super initWithResponse:response];
-    if (self) {
+    if (self && [response isKindOfClass:[NSMutableDictionary class]]) {
         _cityId = [self checkNil:[response objectForKey:kCityId]];
         _groundId = [self checkNil:[response objectForKey:kGroundId]];
         _groupId = [self checkNil:[response objectForKey:kGroupId]];

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E0A085240CB31CFD5AF4845061962E395FC26226",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AA9D8933E7490BA2B57F79D853CD05AFAFF7809A" : 0,
+    "E0A085240CB31CFD5AF4845061962E395FC26226" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "594B9E41-700B-4AE8-BB26-039FA4A640E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AA9D8933E7490BA2B57F79D853CD05AFAFF7809A" : "..",
+    "E0A085240CB31CFD5AF4845061962E395FC26226" : "Football\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Football",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Football.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kulraj-singh\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA9D8933E7490BA2B57F79D853CD05AFAFF7809A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kulraj-singh\/football.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0A085240CB31CFD5AF4845061962E395FC26226"
+    }
+  ]
+}

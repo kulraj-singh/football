@@ -16,6 +16,7 @@
 #define kUserId @"user_id"
 #define kName @"name"
 #define kKey @"key"
+#define kTitle @"title"
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
